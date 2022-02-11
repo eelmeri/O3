@@ -1,10 +1,12 @@
+// POIKKEUSLUOKKA DATE EXCEPTION
+// 
+// Elena Holopainen
+// Periytymisen alkeita - Luo ja tarkistaa kellonajan
+//
 
-public class DateException {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String args[]) {
-        // TODO code application logic here
+// Tulostaan exception messagen
+public class DateException extends Exception {
+    public DateException(String msg) {
+        super(msg);
     }
 }
